@@ -1,6 +1,6 @@
 ---
 name: portfolio-manifest
-description: Ingests information about the user (resume, LinkedIn export, portfolio site, GitHub, case studies, decks, writing, performance reviews, project links) into an evidence inventory, then interviews them to curate a portfolio manifest of their strongest work mapped to skills, themes, and target roles. Use when the user says "build my portfolio", "portfolio manifest", "here's my resume/site/GitHub", "what proof do I have", or wants to turn scattered work into a story. Also use for quick win logging: "log a win", "add this to my brag doc", "I just shipped X". Do not use to write bios or headlines from the manifest (positioning-studio) or to tailor a resume to a posting (positioning-studio).
+description: 'Ingests information about the user (resume, LinkedIn export, portfolio site, GitHub, case studies, decks, writing, performance reviews, project links) into an evidence inventory, then interviews them to curate a portfolio manifest of their strongest work mapped to skills, themes, and target roles. Use when the user says "build my portfolio", "portfolio manifest", "here''s my resume/site/GitHub", "what proof do I have", or wants to turn scattered work into a story. Also use for quick win logging: "log a win", "add this to my brag doc", "I just shipped X". Do not use to write bios or headlines from the manifest (positioning-studio) or to tailor a resume to a posting (positioning-studio).'
 ---
 
 # Portfolio Manifest
