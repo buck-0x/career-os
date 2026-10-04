@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Career planning plugins for technical-creative people without standard titles.",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "plugins": [
     {
       "name": "career-os",
       "source": "./plugins/career-os",
       "description": "Captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "author": {
         "name": "buck-0x"
       },
