@@ -1,6 +1,6 @@
 ---
 name: positioning-studio
-description: Turns the user's ground truth, portfolio evidence, interests, and title stack into positioning they can use to sell themselves: a core positioning statement, proof points, LinkedIn headline and About, bios of several lengths, intros tailored to specific audiences, answers to "so what do you do?", and an interview story bank, every claim traced to evidence. Use when the user says "how do I sell myself", "write my bio/headline/About section", "pitch me to X", "how should I describe what I do", "tailor my story for this role/company", or "prep my interview stories". Do not use to choose the title itself (title-lab) or to decide whether an opportunity is a good fit (career-strategist agent).
+description: 'Turns the user''s ground truth, portfolio evidence, interests, and title stack into positioning they can use to sell themselves: a core positioning statement, proof points, LinkedIn headline and About, bios of several lengths, intros tailored to specific audiences, answers to "so what do you do?", and an interview story bank, every claim traced to evidence. Use when the user says "how do I sell myself", "write my bio/headline/About section", "pitch me to X", "how should I describe what I do", "tailor my story for this role/company", or "prep my interview stories". Do not use to choose the title itself (title-lab) or to decide whether an opportunity is a good fit (career-strategist agent).'
 ---
 
 # Positioning Studio
