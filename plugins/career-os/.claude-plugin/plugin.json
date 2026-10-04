@@ -1,9 +1,18 @@
 {
   "name": "career-os",
-  "version": "0.2.0",
-  "description": "Career operating system for technical-creative people without standard titles: captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning you can sell.",
+  "version": "0.3.0",
+  "description": "Career operating system for technical-creative people without standard titles: captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning you can sell. Works with Codex and Claude Code.",
   "author": {
-    "name": "Brad Weiers"
+    "name": "buck-0x"
   },
-  "keywords": ["career", "positioning", "portfolio", "job-title", "personal-brand", "career-planning"]
+  "repository": "https://github.com/buck-0x/career-os",
+  "license": "MIT",
+  "keywords": ["career", "positioning", "portfolio", "job-title", "personal-brand", "career-planning"],
+  "skills": [
+    "./skills/ground-truth-interview",
+    "./skills/interest-radar",
+    "./skills/portfolio-manifest",
+    "./skills/title-lab",
+    "./skills/positioning-studio"
+  ]
 }

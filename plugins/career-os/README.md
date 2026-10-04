@@ -6,18 +6,25 @@ A career operating system for technical-creative people whose work doesn't fit a
 
 This plugin is distributed from the `career-os` repo, whose root is a plugin marketplace.
 
+**Codex**
+
+```bash
+codex plugin marketplace add buck-0x/career-os
+codex plugin add career-os@career-os-marketplace
+```
+
 **Claude Code**
 
 ```bash
-claude plugin marketplace add <owner>/career-os      # or the repo's git URL
+claude plugin marketplace add buck-0x/career-os      # or the repo's git URL
 claude plugin install career-os@career-os-marketplace
 ```
 
-Inside a session, `/plugin marketplace add <owner>/career-os` and then `/plugin install career-os@career-os-marketplace` does the same.
+Inside a session, `/plugin marketplace add buck-0x/career-os` and then `/plugin install career-os@career-os-marketplace` does the same.
 
 **Claude app:** add the repo as a plugin marketplace, then install **career-os** from it.
 
-Skills run as `/career-os:ground-truth-interview`, `/career-os:interest-radar`, `/career-os:portfolio-manifest`, `/career-os:title-lab`, and `/career-os:positioning-studio`, and also trigger on their own when you ask for that kind of help.
+Skills run as `/career-os:ground-truth-interview`, `/career-os:interest-radar`, `/career-os:portfolio-manifest`, `/career-os:title-lab`, and `/career-os:positioning-studio` in Claude Code, or `$career-os:<skill>` in Codex. They also trigger on their own when you ask for that kind of help.
 
 ## Skills
 
