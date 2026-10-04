@@ -1,0 +1,14 @@
+{
+  "name": "career-os-marketplace",
+  "description": "Career planning plugins for technical-creative people without standard titles.",
+  "owner": {
+    "name": "Brad Weiers"
+  },
+  "plugins": [
+    {
+      "name": "career-os",
+      "source": "./plugins/career-os",
+      "description": "Captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning."
+    }
+  ]
+}

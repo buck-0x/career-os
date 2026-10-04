@@ -1,0 +1,9 @@
+{
+  "name": "career-os",
+  "version": "0.2.0",
+  "description": "Career operating system for technical-creative people without standard titles: captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning you can sell.",
+  "author": {
+    "name": "Brad Weiers"
+  },
+  "keywords": ["career", "positioning", "portfolio", "job-title", "personal-brand", "career-planning"]
+}
