@@ -1,0 +1,17 @@
+{
+  "description": "Check career workspace files against career-os conventions after each write",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/shared/validate_workspace.py\" --hook",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

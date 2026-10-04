@@ -20,11 +20,11 @@ open_questions: []
 ## Items
 
 ### EV-001: <short name>
-- **Kind:** project | metric | launch | artifact | praise | award | talk | writing | skill-demo
+- **Kind:** project | metric | launch | artifact | praise | praise-from-others | award | talk | writing | skill-demo
 - **When:** <dates or year>
 - **Where:** <company / context / self-initiated>
 - **My role:** <role and specific contribution, or _Not in source_>
-- **What happened:** <1–3 lines>
+- **What happened:** <1–3 lines, keeping the source's qualifiers ("assisted", "co-led", "basic")>
 - **Result:** <outcome, metric, or _Not in source_>
 - **Skills shown:** [skill, skill]
 - **Disciplines:** [engineering, design, writing, strategy, ...]
@@ -32,6 +32,14 @@ open_questions: []
 - **Visibility:** public | NDA | describe-only | unknown
 - **Sources:** [source: resume], [stated]
 - **Conflicts:** <e.g., resume says 2021, LinkedIn says 2022>
+
+### EV-002: <giver's role> on <situation>
+- **Kind:** praise-from-others
+- **When:** <date received>
+- **From:** <role and relationship, e.g., "former manager at Acme"; name only if the user wants it>
+- **Quote:** > <their words, verbatim>
+- **Themes:** [<strengths the quote shows>]
+- **Sources:** [source: best-self reply, YYYY-MM-DD]
 ```
 
 ## manifest.md

@@ -1,6 +1,6 @@
 {
   "name": "career-os",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Career operating system for technical-creative people without standard titles: captures your ground truth, tracks what interests you, builds a portfolio manifest from evidence, iterates on titles, and turns it all into positioning you can sell. Works with Codex and Claude Code.",
   "author": {
     "name": "buck-0x"

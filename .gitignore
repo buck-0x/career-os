@@ -1,3 +1,6 @@
 .DS_Store
 *.plugin
 *.zip
+evals/results/
+plugins/career-os/evals/results/
+__pycache__/

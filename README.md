@@ -42,6 +42,11 @@ Add this repo as a plugin marketplace, then install **career-os** from it.
 plugins/career-os/                # the plugin: 5 skills + 1 agent
   .claude-plugin/plugin.json      # Claude Code plugin manifest
   .codex-plugin/plugin.json       # Codex plugin manifest
+  shared/                         # canonical conventions + validator (copied into each skill)
+  hooks/hooks.json                # Claude Code hook: validate workspace files after writes
+  evals/                          # `claude plugin eval` suite (synthetic fixtures only)
+scripts/sync_shared.py            # copies shared/ into every skill; --check fails on drift
+tests/                            # validator unit tests
 ```
 
 Plugin docs: [plugins/career-os/README.md](plugins/career-os/README.md)
@@ -52,6 +57,30 @@ Plugin docs: [plugins/career-os/README.md](plugins/career-os/README.md)
 claude plugin validate ./plugins/career-os
 claude plugin validate .
 claude --plugin-dir ./plugins/career-os            # try it without installing
+```
+
+Shared files: edit `plugins/career-os/shared/` only, then copy them into the skills (CI fails if the copies drift):
+
+```bash
+python3 scripts/sync_shared.py
+```
+
+Validator tests (Python 3.9+, standard library only):
+
+```bash
+python3 -m unittest discover tests
+```
+
+Evals run real model sessions and cost credits. Fixtures are synthetic; keep reports local:
+
+```bash
+claude plugin eval ./plugins/career-os --no-publish --tag trigger
+```
+
+The `fabrication-trap` and `dealbreaker-pushback` cases need their fixture scripts and write access:
+
+```bash
+claude plugin eval ./plugins/career-os --no-publish --scaffold --allow-tools Write Edit Bash --case fabrication-trap
 ```
 
 Bump `version` in both plugin manifests and in `.claude-plugin/marketplace.json` when you release changes so installed copies update.
